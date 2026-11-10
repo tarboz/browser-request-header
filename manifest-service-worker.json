@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Header for CDN provider",
+  "version": "1.0",
+  "description": "CDN provider custom header",
+  "permissions": [
+    "activeTab",
+    "declarativeNetRequest"
+  ],
+  "background": {
+    "service_worker": "sw-headers.js"
+  },
+  "action": {}
+}

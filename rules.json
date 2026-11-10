@@ -1,0 +1,18 @@
+[{
+    "action": {
+        "type": "modifyHeaders",
+        "requestHeaders": [
+            {
+                "header": "x-HEADER-NAME",
+                "operation": "set",
+                "value": "HEADER_VALUE"
+            }
+        ]
+    },
+    "condition": {
+        "urlFilter": "://*.SOME_DOMAIN.com",
+        "resourceTypes": ["main_frame", "sub_frame", "xmlhttprequest"]
+    },
+    "id": 333,
+    "priority": 1
+}]

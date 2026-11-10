@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Header for CDN provider",
+  "version": "1.0",
+  "description": "Custom header for CDN provider",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "activeTab"
+  ],
+  "declarative_net_request" : {
+    "rule_resources" : [{
+      "id": "ruleset",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  }
+}
